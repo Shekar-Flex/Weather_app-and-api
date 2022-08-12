@@ -1,0 +1,42 @@
+This is a my work of building Online weather app.
+
+To make run this application in your machine you need to use python version above 9.3.
+
+I also provided my virtualenvironment on the environment have all required libraries("myenv\Scripts\activate").
+
+If you need to create your own environment make use of required.txt file to install required libraries.
+
+The database is also provide by myself you no need to worried about the database.
+
+#####
+Important Note:
+"""Please Make sure you have a internet connection with out internet it gives connection Error"""
+
+the Views of the application.
+
+1) Login Interface
+
+    *) To Login in to the app.
+    *) Use this username and Password ot login.
+    *) UserName = admin
+    *) Password = admin123 
+
+2) Update Interftace
+
+    *) To update the value of the cities.
+    *) And Display the weather Data of the all cities.
+
+3) Search Interface
+
+    *) To Get the weather information of the specific city.
+
+4) Add and Delete Interface
+
+    *) To add the new city to the database.
+    *) To delete the existing city from the database.
+
+5) Logout Interface
+
+    *) To Logout the Authenticated username.
+    *) And rediracted to Login Interface.
+

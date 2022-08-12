@@ -1,0 +1,83 @@
+This is a my work of building weather api.
+
+To make run this application in your machine you need to use python version above 9.3.
+
+I also provided my virtualenvironment on the environment have all required libraries ("myenv\Scripts\activate").
+
+If you need to create your own environment make use of required.txt file to install required libraries.
+
+The database is also provide by myself you no need to worried about the database.
+
+
+#####
+Important Note:
+"""Please Make sure you have a internet connection with out internet it gives connection Error"""
+
+the urls are in the applicaton.
+
+localhost:8000/api/register
+
+use POST method.
+This is to create a new user.
+
+data to enter.
+{
+    "name" : "User Name"
+    "email":"User Email",
+    "password":"User Password"
+}
+
+localhost:8000/api/login
+#   LOGIN Api(1).
+use POST method.
+the login use emai and password.
+
+{
+    "email":"admin@gmail.com",
+    "password":"admin@123"
+}
+
+localhost:8000/api/user
+
+use GET method.
+This user is to show the details of the Authenticated user.
+
+localhost:8000/api/logout
+#   LOGOUT Api(2).
+use GET method.
+This logout is to logout the Authenticated user.
+
+
+localhost:8000/api/viewdata 
+#   Weather Api(3).
+use GET method.
+This viewdata is to display the all details of the cities in api.
+
+localhost:8000/api/updatedata 
+use GET method.
+This updatedata is to update the all data of the cities in api.
+
+localhost:8000/api/searchcity
+use POST method.
+This Searchcity is to get detail about specific city in api.
+data to enter.
+{
+    "name" : "City name to search"
+}
+
+localhost:8000/api/addcity 
+use POST method
+This addcity is to add new city to the api.
+data to enter
+{
+    "name" : "City name to add"
+}
+
+
+localhost:8000/api/deletecity 
+use POST method.
+This deletecity is to delete the specific city in api.
+data to enter.
+{
+    "name" : "City name to delete"
+}

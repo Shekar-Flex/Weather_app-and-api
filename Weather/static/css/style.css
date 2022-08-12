@@ -1,0 +1,54 @@
+/* *{
+    background-color: aquamarine;
+} */
+
+/* #name{
+   border: 1px solid blueviolet;
+} */
+
+body{
+    height: 100vh;
+} 
+.container{
+    max-width: 450px;
+    height: 100%;
+}
+
+.full
+{
+    background-image: url("photos/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed; 
+    color: aquamarine;
+}
+.home{
+    display: flex;
+    margin-top: 150px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.login{
+
+    border: 2px solid rgb(15, 118, 243);
+    padding:20px;
+    border-radius: 10px;
+    margin-top:-20px;
+    background-color: rgb(168, 234, 205);
+    color:black;
+}
+
+.full-withradius {
+    border:7px solid;
+    border-image: linear-gradient(45deg, turquoise, greenyellow) 1;
+    }
+
+    .up{
+        /* margin-left: 35%; */
+        max-width: 450px;
+        
+    }
+.add-but{
+    float: right;
+}
